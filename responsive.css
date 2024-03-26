@@ -1,0 +1,54 @@
+@media screen and (max-width: 1000px) {
+    /* Styles for screen widths up to 1000px */
+    header {
+        background-color: rgb(13, 192, 236);
+    }
+    nav {
+        flex-direction: column;
+    }
+    .slider {
+        height: 25vh;
+    }
+    .logo {
+        justify-content: center;
+        margin: 12px 0;
+    }
+    nav ul {
+        justify-content: center;
+        height: 34px;
+    }
+    .search {
+        justify-content: center;
+    }
+    .search input {
+        margin: 12px 16px;
+    }
+    .card-item img {
+        width: 140px;
+    }
+    .card {
+        overflow: auto;
+    }
+    .cont1 {
+        display: none;
+    }
+    .user img{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 760px) {
+    /* Styles for screen widths between 1001px and 1100px */
+    header {
+        background-color: rgb(10, 33, 247);
+    }
+    .user img{
+        display:none;
+    }
+    .cont1 {
+        display: none;
+    }
+    .slider {
+        height: 35vh;
+    }
+}

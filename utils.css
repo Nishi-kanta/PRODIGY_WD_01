@@ -1,0 +1,92 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer; 
+}
+
+.my-1{
+    margin: 5px 0;
+}
+
+.my-2{
+    margin: 26px 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.cont1{
+     background-color: rgb(34, 31, 31);
+      margin: 20px;
+       color: antiquewhite;
+}
+.insidecard
+{
+      display: flex;
+      justify-content: space-between;
+       align-items: center;
+       margin: 10px;
+      flex-wrap: wrap;
+}
+
+ .card1 .card1ul .mainli{
+    text-decoration: none;
+    display: inline-block;
+     margin: 10px;
+   
+ }
+ .card2 .card2ul .mainli{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+
+ }
+
+ .card1 .card1ul .mainli li{
+list-style-type: none;
+   
+ }
+ .card2 .card2ul .mainli li{
+    list-style-type: none;
+ }
+ .insidecard2 ul {
+     display: flex;
+      justify-content: space-around;
+       align-items: center;
+        
+ }
+ .insidecard2 ul li{
+      display: inline-block;
+       margin: 20px;
+        padding: 10px;
+        
+ }
+ .insidecard2 ul li:hover{
+     cursor: pointer;
+ }
+ .card1 {
+    border-right: 1px solid #ffffff; /* Adjust color and thickness as needed */
+     width: 60%;
+}
+
+/* swalfire */
+.swal-custom {
+    max-width: 400px; /* Adjust the maximum width as needed */
+    font-size: 14px; /* Adjust the font size as needed */
+   height: 60vh;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #333333;
+  }
